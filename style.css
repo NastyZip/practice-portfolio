@@ -1,0 +1,378 @@
+body {
+	background-color:black ;
+	opacity: 0.9	;
+}
+.navbar{
+  height: 100%;
+  width: 60px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+
+}
+.navbar a{
+	text-decoration: none;
+	color: green;
+}
+.navbar i{
+	color: whitesmoke;	
+	font-size: 30px;
+	padding: 40px 8px 20px 20px;
+	text-decoration: none;
+	display: block;
+}
+.navbar2 i{
+	color: whitesmoke;	
+	font-size: 30px;
+	margin-top: 100px;
+	text-decoration: none;
+	display: block;
+}
+.navbar i:hover {
+  color: #1FFF56;
+  font-size: 35px;
+}
+.profile{
+	margin-left: 50px;
+	margin-top: -30px;
+}
+.profile img{
+	border-radius: 260px;
+    margin-top: -140px;
+    margin-left: 25px;
+    height: 250px;
+    width:250px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.name{
+	display: inline-block;
+}
+.name h2{
+	padding-left: 10px;
+	display: inline-block;
+	color: whitesmoke;
+	font-family: sans-serif;
+	font-size: 40px;
+	float: right;
+}
+.cover img{
+	height: 150px;
+	width: 100%;
+	
+}
+.graph{
+	padding-right:30px;
+	width: 50%;
+	float: right;
+	margin-top: -20px;
+}
+.graph h1{
+	color: whitesmoke;
+	font-family: sans-serif;
+	font-size: 50px;
+	margin-top: 40px;
+
+}
+.graph p{
+	color: whitesmoke;
+	font-family: sans-serif;
+	font-size: 20px;
+	display: inline-block;
+}
+.graph h3{
+	float: right;
+	display: inline-block;
+	font-family: sans-serif;
+	color: whitesmoke;
+}
+
+.container {
+    position: relative;
+    border: 1px solid #1FFF56;
+    border-radius: 20px;
+}
+.container div{
+	   position: relative;
+    width: 0;
+    height: 9px;
+    border-radius: 10px;
+    background-color: #1FFF56;
+}
+.percent{
+	float: right;
+}
+.percent p{
+	float: right;
+	display: block;
+}
+#container {
+  width: 10%;
+  background-color: #1FFF56;
+  height: 5px;
+}	
+
+#html-bar {
+    animation:html-fill 5s forwards;
+} 
+@keyframes html-fill{
+    100%{
+        width: 90%;
+    }
+}
+#css-bar {
+    animation:css-fill 5s forwards;
+} 
+@keyframes css-fill{
+    100%{
+        width: 80%;
+    }
+}
+#js-bar {
+    animation:js-fill 5s forwards;
+} 
+@keyframes js-fill{
+    100%{
+        width: 50%;
+    }
+}
+#C-bar {
+    animation:C-fill 5s forwards;
+} 
+@keyframes C-fill{
+    100%{
+        width: 45%;
+    }
+}
+#C1-bar {
+    animation:C1-fill 5s forwards;
+} 
+@keyframes C1-fill{
+    100%{
+        width: 55%;
+    }
+}
+.info{
+	display: inline-block;
+}
+.info h1{
+	padding-left: 200px;
+	display: inline-block;
+	font-family: sans-serif;
+	font-size: 60px;
+	color: whitesmoke;
+	margin-top: 11px;
+}
+.info h2{
+	font-family: sans-serif;
+	color: #1FFF56;
+	padding-left: 100px;
+	margin-top: -5px;
+}
+.info h4{
+	font-family: sans-serif;
+	color: #1FFF56;
+	padding-left: 100px;
+}
+.info p{
+	display: inline-block;
+	color: whitesmoke;
+}
+.info2{
+	margin-top: 40px;
+}
+.info2 h2{
+	font-family: sans-serif;
+	color: #1FFF56;
+	padding-left: 100px;
+	margin-top: 65px;
+}
+.info2 h4{
+	font-family: sans-serif;
+	color: #1FFF56;
+	padding-left: 100px;
+}
+.info2 p{
+	display: inline-block;
+	color: whitesmoke;
+ 	padding: 0;
+
+}
+.name h4{
+	font-family: sans-serif;
+	color: #1FFF56;
+	text-align: center;
+}
+.box {
+	display: inline-block;
+	width: 50%;
+	float: right;
+	margin-top: -450px;
+}
+.box h4
+{
+	display: block;
+	color: whitesmoke;
+	font-family: sans-serif;
+
+}
+.box div{
+	display: inline-block;
+}
+.box h1{
+	font-family: sans-serif;
+	color: #1FFF56;
+	padding-left: 0px;
+	margin-top: -5px;
+}
+.not{
+	height: 200px;
+	width: 100%;
+	text-align: center;
+	margin-top: 15%;
+	border: 10px;
+	border-color: #1FFF56 ;
+}
+.not i{
+	text-align: center;
+	color: #1FFF56;
+	font-size: 100px;
+
+}
+.not h2 {
+	color: #1FFF56;
+	font-family: sans-serif;
+
+}
+.not h4 {
+	color: #1FFF56;
+	font-family: sans-serif;
+
+}
+.not span{
+		text-align: center;
+	color: #1FFF56;
+	font-size: 100px;
+}
+.form{
+	width: 14%;
+	display: inline-block;
+	margin-left: 15px;
+}
+.first{
+	display: inline-block;
+	margin-top: -10px;
+	margin-left: 10px;
+}
+.first input{
+	display: block;
+	height: 35px;
+	background-color: whitesmoke;
+	border: 0;
+	border-radius: 5px;
+}
+.form textarea{
+padding-left: 10px;
+margin-left: 10px;
+border-radius: 5px;
+resize: 0;
+display: inline-block;
+}
+.first label{
+	color: #1FFF56;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+.buton{
+	display: block;
+
+}
+.buton button {
+	height: 45px;
+	width: 50px;
+	border: 0;
+	margin-left: 570px;
+	background-color: black;
+	display: inline-block;
+}
+.buton i{
+	color: #1FFF56;
+	font-size: 20px;
+}
+
+.size {
+    margin-top: 15%;
+    display: inline-block;
+    background-color: black;
+    width: 35%;
+    margin-left: 10pxs;
+    margin-left: 25%;
+}
+.buton i, a :hover {
+ 	font-size: 30;
+}
+.icons i{
+	color: #1FFF56;
+	font-size: 25px;
+}
+.icons p{
+	color: whitesmoke;
+	font-family: sans-serif;
+	display: inline-block;
+
+}
+.icons2{
+	display: block;
+
+}
+.icons2 i{
+	color: #1FFF56;
+	font-size: 25px;
+}
+.icons2 p{
+	color: whitesmoke;
+	font-family: sans-serif;
+	font-size: 10px;
+	display: inline-block;
+}
+.icons3{
+	display: block;
+
+}
+.icons3 i{
+	color: #1FFF56;
+	font-size: 25px;
+}
+.icons3 p{
+	color: whitesmoke;
+	font-family: sans-serif;
+	display: inline-block;
+}
+.full {
+	display: inline-block	;
+}
+.heads{
+	display: inline-block;
+}
+.heads h1{
+	color:#1FFF56 ;
+	font-family: sans-serif;
+	text-align: center;
+	margin-left: 20ox;
+}
+.snt{
+	text-align: center;
+	margin-top: 200px;
+}
+.snt h1{
+		text-align: center;
+		color:#1FFF56;
+		font-family: sans-serif;
+}
+.snt i{
+	color: #1FFF56;
+	font-size: 100px;
+	display: inline-block;
+}
